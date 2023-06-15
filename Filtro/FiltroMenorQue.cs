@@ -13,8 +13,6 @@ namespace Filtro
         public override IEnumerable<string> Filtrar(string[] pArray, int pCorte)
         {
             return pArray.Where<string>(x => x.Length <= pCorte);
-        
-            //lo mismo que filtroMayorQue pero filtra mayor que
         }
     }
 }
