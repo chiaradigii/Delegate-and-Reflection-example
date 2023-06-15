@@ -9,7 +9,7 @@ namespace Ejemplo_Delegado
     internal class MyItem
     {
      
-            string leyenda; //el constructor recibe esto y los almacena en estos dos campos
+            string leyenda; 
             Type tipo;
 
             public MyItem(string pLeyenda, Type pTipo)
@@ -18,10 +18,10 @@ namespace Ejemplo_Delegado
                 tipo = pTipo;
             }
 
-            public string Leyenda() => leyenda; //funcion que retorna leyenda
-            public Type Tipo() => tipo; //funcion que retorna el tipo
+            public string Leyenda() => leyenda; 
+            public Type Tipo() => tipo; 
 
-            public override string ToString() //sobreescribe el metodo ToSTring para que devuelva la leyenda ¿porque? porque quiero personalizarlo para q devuelva la leyenda cargada
+            public override string ToString() 
             {
                 return Leyenda();
             }
