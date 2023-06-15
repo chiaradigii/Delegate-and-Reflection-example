@@ -8,6 +8,6 @@ namespace Filtro
 {
     public abstract class Filtro
     {
-        public abstract IEnumerable<string> Filtrar(string[] pArray, int pCorte); //RESPETO VALOR DE RETORNO Y LA FIRMA DEL DELEGADO 
+        public abstract IEnumerable<string> Filtrar(string[] pArray, int pCorte); //respecting Delegate signature
     }
 }
